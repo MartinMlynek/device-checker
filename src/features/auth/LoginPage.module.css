@@ -1,0 +1,15 @@
+.container {
+  max-width: 800px;
+  margin: 12rem auto;
+  background-color: white;
+  padding: 2.4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.message {
+  color: red;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}

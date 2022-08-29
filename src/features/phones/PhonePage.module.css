@@ -1,0 +1,23 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10rem;
+  gap: 3.2rem;
+}
+
+.filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 4.4rem;
+}
+
+.search {
+  grid-column: 6 / -1;
+}
+@media screen and (max-width: 1100px) {
+  .dashboard {
+    grid-template-columns: 1fr 1fr;
+  }
+}

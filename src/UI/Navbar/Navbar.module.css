@@ -1,0 +1,41 @@
+.nav {
+  background-color: orangered;
+  color: white;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+  gap: 0.2rem;
+}
+
+.titleBox h1 {
+  font-size: 4.4rem;
+  line-height: 0.8;
+}
+
+.titleBox img {
+  max-height: 10rem;
+  width: auto;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+}
+
+.menu li {
+  background-color: aliceblue;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  color: orangered;
+}

@@ -1,0 +1,20 @@
+.formContainer {
+  max-width: 80rem;
+  width: 100%;
+  margin: auto;
+  margin: 12rem auto;
+  background-color: white;
+  padding: 2.4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.formContainer h1 {
+  font-weight: normal;
+}
+
+.message {
+  color: green;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}

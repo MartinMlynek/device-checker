@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  text-align: left;
+  border-radius: 4px;
+  position: relative;
+}
+
+.containerOpen {
+  z-index: 100;
+}
+.label {
+  margin-left: 6px;
+  color: #a9a9a9;
+}
+
+.button {
+  border: 0;
+  background: #f2f2f2;
+  border-bottom: 1px solid #c6c6c6;
+  color: black;
+  padding: 6px 8px;
+  border-radius: 0px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.6rem;
+  align-items: center;
+  width: inherit;
+}
+
+.button:focus,
+.button:hover {
+  background-color: rgb(255, 211, 195);
+}
+
+.button::after {
+  content: "▼";
+  font-size: 1rem;
+}
+
+.expanded::after {
+  content: "▲";
+}
+
+.options {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background: #c4c4c4;
+}
+
+.show {
+  display: block;
+  width: 100%;
+}
+
+.options li {
+  padding: 6px 10px;
+}
+
+/* .options li[aria-selected="true"] */
+.options li:active,
+.options li:focus,
+.options li:hover {
+  background: rgb(255, 211, 195);
+  cursor: pointer;
+}
+
+.invisible {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}

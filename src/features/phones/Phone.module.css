@@ -1,0 +1,40 @@
+.phone {
+  background-color: aliceblue;
+  max-width: 27rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  padding: 0 0 2rem 0;
+  justify-self: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.image img {
+  max-width: 100%;
+  height: 250px;
+}
+
+.content {
+  padding: 0 0.8rem;
+}
+
+.borrowed {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  font-size: 1.8rem;
+  color: white;
+  padding: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.626);
+}
+
+.button {
+  width: 100%;
+  margin-top: 0.4rem;
+}
